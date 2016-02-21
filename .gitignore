@@ -25,6 +25,7 @@
 # Sensitive or high-churn files:
 # .idea/dataSources.ids
 # .idea/dataSources.xml
+/templates/business
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
 # .idea/uiDesigner.xml
