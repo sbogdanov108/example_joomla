@@ -28,10 +28,10 @@ foreach ($list as $i => &$item)
 
 	if (($item->id == $active_id) OR ($item->type == 'alias' AND $item->params->get('aliasoptions') == $active_id))
 	{
-		$class .= ' current';
+		$class .= ' active';
 	}
 
-	if (in_array($item->id, $path))
+	/*if (in_array($item->id, $path))
 	{
 		$class .= ' active';
 	}
@@ -47,7 +47,7 @@ foreach ($list as $i => &$item)
 		{
 			$class .= ' alias-parent-active';
 		}
-	}
+	}*/
 
 	if ($item->type == 'separator')
 	{

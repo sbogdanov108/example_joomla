@@ -155,3 +155,11 @@ a {
     margin-top : 50px;
   }
 }
+
+.blog {
+  margin-top : 100px;
+}
+
+.page-header {
+  border-bottom: 0;
+}

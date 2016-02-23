@@ -28,7 +28,7 @@ switch ($item->browserNav)
 {
 	default:
 	case 0:
-?><a class="qqqqqqqqqqqqqqq" <?php echo $class; ?>href="<?php echo $item->flink; ?>" <?php echo $title; ?>><?php echo $linktype; ?></a><?php
+?><a <?php echo $class; ?>href="<?php echo $item->flink; ?>" <?php echo $title; ?>><?php echo $linktype; ?></a><?php
 		break;
 	case 1:
 		// _blank

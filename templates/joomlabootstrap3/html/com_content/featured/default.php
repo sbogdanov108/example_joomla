@@ -69,13 +69,14 @@ JHtml::_( 'behavior.caption' );
       <?php $counter ++; ?>
 
       <?php if ( ( $rowcount == $this->columns ) or ( $counter == $introcount ) ) : ?>
-          <hr class="featurette-divider">
 
         </div>
       <?php endif; ?>
 
     <?php endforeach; ?>
   <?php endif; ?>
+
+  <hr class="featurette-divider">
 
   <?php if ( ! empty( $this->link_items ) ) : ?>
     <div class="items-more">
