@@ -22,9 +22,10 @@
 
   <positions>
     <position>main-menu</position>
+    <position>carousel</position>
+    <position>new-posts</position>
     <position>search</position>
     <position>breadcrumbs</position>
-    <position>new-posts</position>
     <position>aside-1</position>
   </positions>
 </extension>
