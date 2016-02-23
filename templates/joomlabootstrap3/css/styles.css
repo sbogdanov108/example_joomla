@@ -156,7 +156,8 @@ a {
   }
 }
 
-.blog {
+.blog,
+.item-page {
   margin-top : 100px;
 }
 
