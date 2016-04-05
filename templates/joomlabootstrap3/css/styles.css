@@ -86,6 +86,11 @@ a {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+
+.marketing {
+  margin-top : 70px;
+}
+
 .marketing .col-lg-4 {
   margin-bottom : 20px;
   text-align    : center;
@@ -156,11 +161,52 @@ a {
   }
 }
 
-.blog,
-.item-page {
-  margin-top : 100px;
-}
-
 .page-header {
   border-bottom: 0;
 }
+
+.alert {
+  padding : 15px 0;
+}
+
+/* Форма */
+
+.form-feedback { margin-bottom: 59px; }
+
+.my-form .form-group { margin-bottom: 20px; }
+
+.my-form input.form-control { height: 40px; }
+
+.my-form input,
+.my-form textarea { transition: all 250ms linear; border: none; background-color: #e5e6e6; box-shadow: inset 3px 2px 0 #d8dada; border-radius: 3px; }
+
+.my-form .control-label,
+.my-form input,
+.my-form textarea { font-size: 16px; font-weight: normal; }
+
+.my-form .control-label { color: #7f8c8c; }
+
+.my-form textarea.form-control { font-size: 16px; height: 240px; margin-bottom: 5px; resize: vertical; }
+
+.my-form label.control-label { text-align: center; padding-top: 7px; padding-right: 0; }
+
+.my-form .asterisk { color : #e95d3c; }
+
+.my-form .help-required { color: #7f8c8c; float: right; margin-top: 0; margin-bottom: 13px; }
+
+.my-form .help-required.help-feedback { float: none; }
+
+.my-form input[type="checkbox"] { box-shadow: none; }
+
+.my-form .email-copy-checkbox { padding-top: 15px; }
+
+.my-form .btn-red { border: none; border-radius: 40px; background-color: #e95d3c; color: #fff; font-size: 18px; padding: 13px 26px; text-transform: uppercase; }
+
+.my-form .btn-red:hover { background: #de3d27; }
+
+.my-form input:hover,
+.my-form input:focus,
+.my-form textarea:hover,
+.my-form textarea:focus { box-shadow: inset 3px 2px 0 #bec1c1; }
+
+#contact-form label[for="jform_contact_message"] { padding: 0 0 10px; }
